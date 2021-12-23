@@ -1,0 +1,106 @@
+.wrapper {
+    min-height: 100%;
+    display: flex;
+
+}
+.creation-field{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+input {
+    display: block;
+    width: 200px;
+    height: 30px;
+    
+    padding: 0 15px;
+    border: 2px solid rgba(17, 158, 240, 0.76)  ;
+    border-radius: 4px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: rgb(7, 45, 66);
+}
+.info__input {
+    margin: 0px 0px 30px 100px;
+}
+
+button {
+    width: 130px;
+    height: 30px;
+    background: none;
+    border: 3px solid rgb(17, 158, 240);
+    border-radius: 4px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 0px 0px 0px 145px;
+    color: rgb(7, 45, 66);
+}
+
+button:hover {
+    background: rgba(17, 158, 240, 0.76);
+    color: cornsilk;
+}
+.creation-field__cover {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+.cover_row {
+    margin-bottom: 15px;
+    max-width: 200px;
+    display: flex;
+}
+.radio {
+    transform:  scale(0.5);
+}
+.cover {
+    width: 145px;
+    height: 205px;
+}
+.Mybooks-field__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.Mybooks-field__item {
+    list-style: none;
+    margin: 0px 30px 30px 0px;
+}
+
+.book {
+    min-width: 250px;
+    padding: 0 15px;
+    height: 400px;
+    position: relative;
+    border: 5px solid rgba(17, 158, 240, 0.452);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: flex-end;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+
+}
+.book__cover {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    align-self: flex-start;
+
+}
+.book__title {
+    flex: 1 1 auto;
+    text-align: center;
+    max-width: 105px;
+
+}
+.book__text {
+    align-self: center;
+
+}
+.book__delete {
+    margin: 100px 0px 10px 0px;
+    align-self: center;
+
+}
